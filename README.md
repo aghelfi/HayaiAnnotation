@@ -21,8 +21,8 @@ docker pull ezlabgva/orthologer:v3.0.5
 
 # create a workdir for HAv3 called hayai
 
-mkdir -p .hayai/src/orthologer
-cd .hayai/src/orthologer
+mkdir -p ./hayai/src/orthologer
+cd ./hayai/src/orthologer
 docker run -u $(id -u) -v .:/odbwork ezlabgva/orthologer:v3.0.5 setup_odb.sh
 
 # change 'odb10' to 'odb11': export BUSCO_ODB_VERSION="odb10" -> export BUSCO_ODB_VERSION="odb11" 
