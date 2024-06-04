@@ -1,14 +1,17 @@
 # Hayai Annotation v3.0
 A functional gene prediction tool that integrates orthologs and gene ontology for network analysis
 
-Hayai-Annotation v3 (HAv3) is an R-Shiny application that uses two methods to infer functional annotation: DIAMOND for sequence alignment using UniProtKB Plants as a database and the orthomapper function from OrthoLoger (v3.0.5, “https://orthologer.ezlab.org/”) using the node Viridiplantae to detect orthologs.
+Hayai-Annotation v3 (HAv3) is an R-Shiny application that uses two methods to infer functional annotation: DIAMOND for sequence alignment using UniProtKB Plants as a database and the orthomapper function from OrthoLoger using the node Viridiplantae to detect orthologs.
+
+## Usage
+
 
 ## Operation System
 - Run on Linux and MacOS (Intel)
 
 ## Dependencies
 
-### Orthologer (Docker version; https://orthologer.ezlab.org/)
+### [Orthologer Docker v3.0.5](https://orthologer.ezlab.org/)
 
 ```
 docker pull ezlabgva/orthologer:v3.0.5
@@ -32,7 +35,7 @@ egrep result should be as below:
   export BUSCO_ODB_VERSION="odb11"
 </pre>
 
-### Diamond (v2.1.9)
+### [Diamond v2.1.9](https://github.com/bbuchfink/diamond)
 Download Diamond and place on src directory
 ```
 cd hayai/src
@@ -40,7 +43,7 @@ wget https://github.com/bbuchfink/diamond/releases/download/v2.1.9/diamond-linux
 tar xzf diamond-linux64.tar.gz
 ```
 
-# test if diamond is working 
+#### Test if diamond is working 
 ```
 ./diamond help
 ```
