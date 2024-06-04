@@ -65,7 +65,19 @@ md5sum -c zen.md5
   zen.dmnd: OK
 </pre>
 
-  
+### [Install R and Rstudio](https://posit.co/download/rstudio-desktop/)
+Open Rstudio 
+Go to 'hayai' directory
+Load and Run the file Hayai_annotation_v3.R
+It will open a graphical interface, you may in a browser if you prefer.
+
+Select Protein or DNA, based on you FASTA file.
+Upload the FASTA sequences and click on 'Submit'.
 
 
+![HAv3_RStudio](https://github.com/aghelfi/HayaiAnnotation/assets/5419143/4e7b647e-39d7-4486-9f88-f2de1629f7df)
+
+After it finish the results will be shown on the GUI, the complete results and graphics can be downloaded 'Download Results'.
+
+![Figure_HA_v3_interface](https://github.com/aghelfi/HayaiAnnotation/assets/5419143/74d9ed33-1f00-45a1-bcbc-18aee4d3054b)
 
