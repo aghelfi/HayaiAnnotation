@@ -13,10 +13,10 @@ Hayai-Annotation v3 (HAv3) is an R-Shiny application that uses two methods to in
 ```
 docker pull ezlabgva/orthologer:v3.0.5
 
-# create a workdir for HAv3
+# create a workdir for HAv3 called hayai
 
-mkdir -p .workdir/src/orthologer
-cd .workdir/src/orthologer
+mkdir -p .hayai/src/orthologer
+cd .hayai/src/orthologer
 docker run -u $(id -u) -v .:/odbwork ezlabgva/orthologer:v3.0.5 setup_odb.sh
 
 # change 'odb10' to 'odb11': export BUSCO_ODB_VERSION="odb10" -> export BUSCO_ODB_VERSION="odb11" 
@@ -35,7 +35,7 @@ egrep result should be as below:
 ### Diamond (v2.1.9)
 Download Diamond and place on src directory
 ```
-cd workdir/src
+cd hayai/src
 wget https://github.com/bbuchfink/diamond/releases/download/v2.1.9/diamond-linux64.tar.gz
 tar xzf diamond-linux64.tar.gz
 ```
@@ -51,5 +51,18 @@ Please cite: http://dx.doi.org/10.1038/s41592-021-01101-x Nature Methods (2021)
 </pre>
 
 ### Download Database (DockerHub)
+```
+cd hayai/db
+wget https://plantgarden.jp/download/zen.dmnd
+wget https://plantgarden.jp/download/zen.md5
+md5sum -c zen.md5
+```
+<pre>
+  # the result should be:
+  zen.dmnd: OK
+</pre>
+
+  
+
 
 
