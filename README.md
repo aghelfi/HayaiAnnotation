@@ -3,13 +3,16 @@ A functional gene prediction tool that integrates orthologs and gene ontology fo
 
 Hayai-Annotation v3 (HAv3) is an R-Shiny application that uses two methods to infer functional annotation: DIAMOND for sequence alignment using UniProtKB Plants as a database and the orthomapper function from OrthoLoger using the node Viridiplantae to detect orthologs.
 
-## Usage
-
-
 ## Operation System
 - Run on Linux and MacOS (Intel)
 
 ## Dependencies
+
+### Summary 
+Clone this repository and follow the instructions in the README.txt files in the directories 'db', 'src' and 'src/orthologer'.
+
+
+### Full instructions
 
 ### [Orthologer Docker v3.0.5](https://orthologer.ezlab.org/)
 
