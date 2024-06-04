@@ -7,7 +7,7 @@ tar xzf diamond-linux64.tar.gz
 
 docker pull ezlabgva/orthologer:v3.0.5
 
-# In this directory ./hayai/src
+# In the current directory
 cd orthologer
 docker run -u $(id -u) -v .:/odbwork ezlabgva/orthologer:v3.0.5 setup_odb.sh
 
