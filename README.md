@@ -14,7 +14,7 @@ Clone this repository and follow the instructions in the README.txt files in the
 
 ### Full instructions
 
-### [Orthologer Docker v3.0.5](https://orthologer.ezlab.org/)
+### Install [Orthologer Docker v3.0.5](https://orthologer.ezlab.org/)
 
 ```
 docker pull ezlabgva/orthologer:v3.0.5
@@ -38,8 +38,8 @@ egrep result should be as below:
   export BUSCO_ODB_VERSION="odb11"
 </pre>
 
-### [Diamond v2.1.9](https://github.com/bbuchfink/diamond)
-Download Diamond and place on src directory
+### Install [Diamond v2.1.9](https://github.com/bbuchfink/diamond/wiki/2.-Installation)
+Example for Linux: Download diamond and place on src directory
 ```
 cd hayai/src
 wget https://github.com/bbuchfink/diamond/releases/download/v2.1.9/diamond-linux64.tar.gz
