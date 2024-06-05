@@ -68,7 +68,7 @@ md5sum -c zen.md5
   zen.dmnd: OK
 </pre>
 
-### [Install R and Rstudio](https://posit.co/download/rstudio-desktop/)
+### Install [R v4.3 or latest](https://cran.rstudio.com/) and [Rstudio-destop](https://posit.co/download/rstudio-desktop/) for local access. Install [Rstudio-server](https://posit.co/download/rstudio-server/) if running from a remote server
 Open Rstudio 
 Go to 'hayai' directory
 
