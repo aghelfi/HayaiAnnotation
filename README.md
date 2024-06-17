@@ -5,6 +5,7 @@ Hayai-Annotation v3 (HAv3) is an R-Shiny application that uses two methods to in
 
 ## Operation System
 - Run on Linux and MacOS (Intel)
+- Configured to work with 10 threads
 
 ## Dependencies
 
