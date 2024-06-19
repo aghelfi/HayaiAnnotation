@@ -1,4 +1,5 @@
 # Hayai Annotation v3.0
+
 A functional gene prediction tool that integrates orthologs and gene ontology for network analysis
 
 Hayai-Annotation v3 (HAv3) is an R-Shiny application that uses two methods to infer functional annotation: DIAMOND for sequence alignment using UniProtKB Plants as a database and the orthomapper function from OrthoLoger using the node Viridiplantae to detect orthologs.
