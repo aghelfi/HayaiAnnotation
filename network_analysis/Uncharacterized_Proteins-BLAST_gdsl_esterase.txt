@@ -1,0 +1,307 @@
+RID: K2S39MD7016	
+Job Title:Protein Sequence				
+Program: BLASTP 
+Database: nr All non-redundant GenBank CDS translations+PDB+SwissProt+PIR+PRF excluding environmental samples from WGS projects
+Query #1:  Query ID: lcl|Query_7784228 Length: 365
+
+Sequences producing significant alignments:
+                                                                  Scientific      Common                     Max    Total Query   E    Per.   Acc.                        
+Description                                                       Name            Name            Taxid      Score  Score cover Value  Ident  Len        Accession        
+GDSL esterase/lipase At1g71691 [Oryza sativa Japonica Group]      Oryza sativa... Japanese rice   39947      643    643   100%  0.0    88.98  381        XP_015649406.1   
+hypothetical protein OsI_27577 [Oryza sativa Indica Group]        Oryza sativa... long-grained... 39946      643    643   100%  0.0    89.24  381        EEC82803.1       
+GDSL esterase/lipase At1g71691-like [Oryza glaberrima]            Oryza glaber... African rice    4538       643    643   100%  0.0    89.24  381        XP_052164269.1   
+hypothetical protein GUJ93_ZPchr0010g11124 [Zizania palustris]    Zizania palu... NA              103762     550    550   86%   0.0    81.71  357        KAG8086647.1     
+GDSL esterase/lipase At1g71691 [Oryza brachyantha]                Oryza brachy... malo sina       4533       546    546   88%   0.0    82.80  366        XP_006659756.1   
+GDSL esterase/lipase At1g71691-like [Triticum aestivum]           Triticum aes... bread wheat     4565       513    513   93%   0.0    71.63  362        XP_044432168.1   
+GDSL esterase/lipase At1g71691-like [Triticum dicoccoides]        Triticum dic... NA              85692      511    511   90%   4e-180 73.26  357        XP_037460377.1   
+GDSL esterase/lipase At1g71691-like [Triticum dicoccoides]        Triticum dic... NA              85692      510    510   93%   6e-180 71.07  362        XP_037468924.1   
+GDSL esterase/lipase At1g71691-like [Aegilops tauschii subsp....  Aegilops tau... NA              200361     509    509   90%   8e-180 73.04  345        XP_020147407.2   
+GDSL esterase/lipase At1g71691-like [Triticum aestivum]           Triticum aes... bread wheat     4565       509    509   93%   1e-179 71.55  357        XP_044426829.1   
+GDSL esterase/lipase At1g71691-like [Triticum aestivum]           Triticum aes... bread wheat     4565       509    509   93%   3e-179 71.35  362        XP_044440953.1   
+GDSL esterase/lipase At1g71691-like [Phragmites australis]        Phragmites a... common reed     29695      503    503   96%   5e-177 72.05  362        XP_062192933.1   
+hypothetical protein QYE76_033316 [Lolium multiflorum]            Lolium multi... Italian ryeg... 4521       501    501   90%   3e-176 72.75  349        KAK1609643.1     
+GDSL esterase/lipase At1g71691-like [Lolium perenne]              Lolium perenne  NA              4522       501    501   93%   5e-176 71.15  366        XP_051198789.1   
+hypothetical protein SEVIR_6G089300v4 [Setaria viridis]           Setaria viridis NA              4556       498    498   96%   3e-175 70.68  368        KAK8450768.1     
+GDSL esterase/lipase At1g71691-like [Miscanthus floridulus]       Miscanthus f... NA              154761     498    498   88%   6e-175 73.76  366        XP_066326228.1   
+GDSL esterase/lipase At1g71691-like [Setaria viridis]             Setaria viridis NA              4556       500    500   95%   6e-175 71.07  421        XP_034599557.1   
+hypothetical protein CFC21_103313 [Triticum aestivum]             Triticum aes... bread wheat     4565       498    498   93%   2e-174 65.89  393        KAF7102128.1     
+GDSL esterase/lipase At1g71691 [Setaria italica]                  Setaria italica foxtail millet  4555       496    496   96%   2e-174 70.41  368        XP_004973035.1   
+GDSL esterase/lipase At1g71691-like precursor [Zea mays]          Zea mays        NA              4577       496    496   87%   4e-174 74.85  366        NP_001309282.1   
+hypothetical protein SETIT_6G090200v2 [Setaria italica]           Setaria italica foxtail millet  4555       498    498   95%   4e-174 70.80  421        RCV30384.1       
+unnamed protein product [Miscanthus lutarioriparius]              Miscanthus l... NA              422564     495    495   88%   9e-174 73.47  366        CAD6246413.1     
+hypothetical protein GQ55_6G012100 [Panicum hallii var. hallii]   Panicum hall... NA              1504633    491    491   91%   1e-172 72.99  357        PUZ49856.1       
+GDSL esterase/lipase At1g71691-like [Panicum virgatum]            Panicum virg... switchgrass     38727      492    492   87%   1e-172 75.83  361        XP_039814527.1   
+GDSL esterase/lipase At1g71691-like [Lolium rigidum]              Lolium rigidum  NA              89674      492    492   89%   1e-172 71.64  369        XP_047050498.1   
+hypothetical protein CFC21_098250 [Triticum aestivum]             Triticum aes... bread wheat     4565       492    492   90%   2e-172 66.67  391        KAF7096280.1     
+GDSL esterase/lipase At1g71691-like [Panicum virgatum]            Panicum virg... switchgrass     38727      490    490   91%   5e-172 73.56  361        XP_039855760.1   
+GDSL esterase/lipase At1g71691-like [Panicum hallii]              Panicum hallii  NA              206008     490    490   87%   6e-172 75.23  357        XP_025820717.1   
+GDSL esterase/lipase At1g71691-like [Hordeum vulgare subsp....    Hordeum vulg... domesticated... 112509     490    490   93%   6e-172 71.43  367        XP_044957968.1   
+hypothetical protein QOZ80_8BG0642670 [Eleusine coracana subsp... Eleusine cor... NA              191504     489    489   87%   3e-171 74.40  367        KAK3120853.1     
+GDSL esterase/lipase At1g71691-like precursor [Zea mays]          Zea mays        NA              4577       488    488   87%   5e-171 73.65  366        NP_001339083.1   
+hypothetical protein EJB05_10209 [Eragrostis curvula]             Eragrostis c... weeping love... 38414      487    487   88%   1e-170 74.48  364        TVU43721.1       
+hypothetical protein EJB05_10180 [Eragrostis curvula]             Eragrostis c... weeping love... 38414      487    487   90%   1e-170 73.18  363        TVU43692.1       
+GDSL esterase/lipase [Zea mays]                                   Zea mays        NA              4577       486    486   88%   2e-170 74.12  366        PWZ18829.1       
+GDSL esterase/lipase [Panicum miliaceum]                          Panicum mili... NA              4540       484    484   87%   2e-169 72.46  371        RLM61058.1       
+hypothetical protein PR202_ga30905 [Eleusine coracana subsp....   Eleusine cor... NA              191504     483    483   95%   2e-169 68.78  362        GJN12613.1       
+hypothetical protein QOZ80_8AG0615200 [Eleusine coracana subsp... Eleusine cor... NA              191504     483    483   95%   2e-169 68.78  363        KAK3122554.1     
+GDSL esterase/lipase [Zea mays]                                   Zea mays        NA              4577       483    483   87%   8e-169 71.14  375        AQK78264.1       
+GDSL esterase/lipase [Dichanthelium oligosanthes]                 Dichantheliu... NA              888268     479    479   87%   2e-167 74.62  366        OEL30978.1       
+hypothetical protein HU200_028431 [Digitaria exilis]              Digitaria ex... NA              1010633    477    477   90%   1e-166 70.85  356        KAF8712671.1     
+hypothetical protein BS78_07G016800 [Paspalum vaginatum]          Paspalum vag... NA              158149     476    476   92%   2e-166 70.66  365        KAJ1266914.1     
+GDSL esterase/lipase At1g71691 [Sorghum bicolor]                  Sorghum bicolor sorghum         4558       475    475   86%   7e-166 72.92  376        XP_002443746.1   
+GDSL esterase/lipase [Panicum miliaceum]                          Panicum mili... NA              4540       473    473   91%   2e-165 71.92  354        RLN03340.1       
+hypothetical protein U9M48_041216 [Paspalum notatum var. saurae]  Paspalum not... NA              547442     470    470   87%   8e-164 72.37  370        WVZ95453.1       
+GDSL esterase/lipase At1g71691-like [Phoenix dactylifera]         Phoenix dact... date palm       42345      468    468   96%   7e-163 61.43  382        XP_008788334.2   
+unnamed protein product [Musa acuminata var. zebrina]             Musa acumina... NA              214685     466    466   96%   3e-162 62.09  377        CAL9098830.1     
+hypothetical protein HU200_052251 [Digitaria exilis]              Digitaria ex... NA              1010633    464    464   88%   5e-162 70.54  356        KAF8668438.1     
+GDSL esterase/lipase-like [Iris pallida]                          Iris pallida    NA              29817      464    464   95%   3e-161 60.11  382        KAJ6816415.1     
+GDSL esterase/lipase-like [Iris pallida]                          Iris pallida    NA              29817      464    464   95%   3e-161 60.38  382        KAJ6805574.1     
+GDSL esterase/lipase At1g71691-like [Musa acuminata AAA Group]    Musa acumina... dessert banana  214697     463    463   96%   4e-161 61.43  376        XP_065041207.1   
+GDSL esterase/lipase At1g71691-like [Musa acuminata AAA Group]    Musa acumina... dessert banana  214697     462    462   93%   7e-161 62.78  356        XP_065006997.1   
+unnamed protein product [Musa hybrid cultivar]                    Musa hybrid ... NA              491892     461    461   96%   4e-160 61.43  376        CAL9158681.1     
+GDSL esterase/lipase At1g71691-like [Musa acuminata AAA Group]    Musa acumina... dessert banana  214697     460    460   96%   5e-160 61.43  376        XP_018682307.2   
+GDSL esterase/lipase At1g71691 [Elaeis guineensis]                Elaeis guine... African oil ... 51953      460    460   96%   1e-159 61.81  383        XP_010908040.1   
+unnamed protein product [Musa acuminata subsp. burmannicoides]    Musa acumina... NA              213592     459    459   96%   2e-159 60.88  376        CAL9751260.1     
+GDSL esterase/lipase [Cocos nucifera]                             Cocos nucifera  coconut palm    13894      458    458   96%   7e-159 61.54  383        EHA8588370.1     
+hypothetical protein SAY86_001338 [Trapa natans]                  Trapa natans    NA              22666      456    456   97%   3e-158 58.95  381        KAK4803135.1     
+hypothetical protein SAY87_014275 [Trapa incisa]                  Trapa incisa    NA              236973     456    456   97%   5e-158 58.95  381        KAK4747689.1     
+unnamed protein product [Urochloa decumbens]                      Urochloa dec... NA              240449     453    453   92%   2e-157 71.67  365        CAL5009581.1     
+unnamed protein product [Urochloa decumbens]                      Urochloa dec... NA              240449     452    452   87%   1e-156 73.65  367        CAL5008984.1     
+unnamed protein product [Urochloa decumbens]                      Urochloa dec... NA              240449     451    451   91%   2e-156 70.90  369        CAL4996325.1     
+unnamed protein product [Urochloa decumbens]                      Urochloa dec... NA              240449     451    451   87%   3e-156 73.65  367        CAL5004503.1     
+unnamed protein product [Ilex paraguariensis]                     Ilex paragua... NA              185542     451    451   95%   3e-156 60.61  370        CAK9150224.1     
+unnamed protein product [Musa acuminata subsp. malaccensis]       Musa acumina... wild Malaysi... 214687     452    452   98%   3e-156 59.57  413        CAG1837184.1     
+GDSL esterase/lipase At1g71691-like [Vitis riparia]               Vitis riparia   riverbank grape 96939      449    449   96%   1e-155 59.89  374        XP_034674927.1   
+hypothetical protein LUZ60_001907 [Juncus effusus]                Juncus effusus  NA              13579      448    448   89%   3e-155 60.29  378        KAJ3678104.1     
+GDSL esterase/lipase [Cinnamomum micranthum f. kanehirae]         Cinnamomum m... NA              337451     448    448   97%   3e-155 59.78  372        RWR92680.1       
+GDSL esterase/lipase At1g71691 [Vitis vinifera]                   Vitis vinifera  wine grape      29760      448    448   96%   4e-155 59.34  374        XP_002278219.2   
+GDSL esterase/lipase [Vitis vinifera]                             Vitis vinifera  wine grape      29760      451    451   96%   5e-155 60.00  476        RVW77894.1       
+hypothetical protein PVL29_024894 [Vitis rotundifolia]            Vitis rotund... NA              103349     449    449   96%   5e-155 59.62  419        KAJ9676114.1     
+hypothetical protein PVL29_024894 [Vitis rotundifolia]            Vitis rotund... NA              103349     447    447   96%   6e-155 59.62  374        KAJ9676117.1     
+hypothetical protein RIF29_25184 [Crotalaria pallida]             Crotalaria p... smooth rattl... 3830       447    447   95%   9e-155 60.45  387        KAK7259575.1     
+hypothetical protein RDABS01_010205 [Bienertia sinuspersici]      Bienertia si... NA              338654     447    447   96%   1e-154 59.03  374        KAL2894296.1     
+GDSL esterase/lipase At1g71691-like [Telopea speciosissima]       Telopea spec... NA              54955      447    447   90%   1e-154 60.06  371        XP_043719049.1   
+Zinc finger protein [Heracleum sosnowskyi]                        Heracleum so... NA              360622     447    447   90%   1e-154 61.58  383        KAK1361216.1     
+GDSL esterase/lipase [Canna indica]                               Canna indica    NA              4628       446    446   93%   3e-154 61.69  387        WOK96520.1       
+GDSL esterase/lipase [Cinnamomum micranthum f. kanehirae]         Cinnamomum m... NA              337451     446    446   97%   3e-154 59.51  372        RWR92677.1       
+GDSL esterase/lipase At1g71691-like [Rhododendron vialii]         Rhododendron... NA              182163     446    446   96%   4e-154 58.70  376        XP_058191960.1   
+GDSL esterase/lipase At1g71691-like [Cynara cardunculus var....   Cynara cardu... NA              59895      445    445   96%   4e-154 59.13  374        XP_024963858.1   
+GDSL esterase/lipase At1g71691 [Helianthus annuus]                Helianthus a... common sunfl... 4232       445    445   96%   6e-154 59.03  377        XP_022038732.1   
+GDSL esterase/lipase At1g71691 [Morus notabilis]                  Morus notabilis NA              981085     445    445   97%   6e-154 60.38  374        XP_024023764.1   
+GDSL esterase/lipase At1g71691 [Daucus carota subsp. sativus]     Daucus carot... NA              79200      445    445   92%   7e-154 60.62  380        XP_017247143.1   
+GDSL-LIKE LIPASE/ACYLHYDROLASE-RELATED [Salix purpurea]           Salix purpurea  NA              77065      444    444   97%   1e-153 58.86  367        KAJ6744743.1     
+hypothetical protein RJ640_002276 [Escallonia rubra]              Escallonia r... NA              112253     444    444   100%  1e-153 58.36  373        KAK2990114.1     
+hypothetical protein ACET3Z_014975 [Daucus carota]                Daucus carota   carrot          4039       444    444   92%   1e-153 60.91  363        KAL1820106.1     
+hypothetical protein RHSIM_Rhsim12G0003700 [Rhododendron simsii]  Rhododendron... NA              118357     444    444   96%   1e-153 58.70  376        KAF7123369.1     
+PREDICTED: GDSL esterase/lipase At1g71691-like [Nelumbo nucifera] Nelumbo nuci... sacred lotus    4432       444    444   92%   2e-153 60.22  382        XP_010265554.1   
+hypothetical protein MRB53_033851 [Persea americana]              Persea ameri... avocado         3435       444    444   93%   2e-153 61.24  376        KAJ8625321.1     
+unnamed protein product [Lupinus luteus]                          Lupinus luteus  yellow lupine   3873       443    443   95%   2e-153 59.94  361        CAL0311043.1     
+hypothetical protein VitviT2T_029000 [Vitis vinifera]             Vitis vinifera  wine grape      29760      442    442   87%   2e-153 62.95  340        WKA11507.1       
+unnamed protein product [Spirodela intermedia]                    Spirodela in... NA              51605      443    443   89%   3e-153 62.24  361        CAA7396548.1     
+hypothetical protein HHK36_009184 [Tetracentron sinense]          Tetracentron... NA              13715      443    443   96%   3e-153 58.36  376        KAF8404301.1     
+hypothetical protein NE237_018684 [Protea cynaroides]             Protea cynar... NA              273540     444    444   98%   3e-153 55.38  406        KAJ4966835.1     
+GDSL esterase/lipase [Citrus sinensis]                            Citrus sinensis sweet orange    2711       442    442   93%   3e-153 59.66  355        KAH9725308.1     
+hypothetical protein OIU85_003267 [Salix viminalis]               Salix viminalis osier           40686      442    442   96%   4e-153 58.63  367        KAJ6696891.1     
+hypothetical protein Vadar_016022 [Vaccinium darrowii]            Vaccinium da... NA              229202     443    443   90%   4e-153 61.05  381        KAH7834438.1     
+hypothetical protein [Colocasia esculenta]                        Colocasia es... taro            4460       447    447   94%   4e-153 60.16  486        MQM02679.1       
+putative triacylglycerol lipase [Helianthus annuus]               Helianthus a... common sunfl... 4232       443    443   95%   4e-153 58.79  377        KAJ0750724.1     
+hypothetical protein WN943_015337 [Citrus x changshan-huyou]      Citrus x cha... NA              2935761    442    442   93%   4e-153 59.66  362        KAK9205071.1     
+hypothetical protein NE237_018524 [Protea cynaroides]             Protea cynar... NA              273540     444    444   98%   5e-153 55.12  398        KAJ4966675.1     
+
+
+Alignments:
+
+>GDSL esterase/lipase At1g71691 [Oryza sativa Japonica Group]
+Sequence ID: XP_015649406.1 Length: 381
+>hypothetical protein EE612_041743 [Oryza sativa]
+Sequence ID: KAB8107147.1 Length: 381
+>hypothetical protein OsJ_25801 [Oryza sativa Japonica Group]
+Sequence ID: EEE67926.1 Length: 381
+>hypothetical protein DAI22_08g009900 [Oryza sativa Japonica Group]
+Sequence ID: KAF2917800.1 Length: 381
+>putative GDSL-motif lipase/hydrolase protein [Oryza sativa Japonica Group]
+Sequence ID: BAD09513.1 Length: 381
+>Os08g0112900 [Oryza sativa Japonica Group]
+Sequence ID: BAF22749.1 Length: 381 
+Range 1: 1 to 381
+
+Score:643 bits(1658), Expect:0.0, 
+Method:Compositional matrix adjust., 
+Identities:339/381(89%), Positives:351/381(92%), Gaps:16/381(4%)
+
+Query  1    MLMSTLRPAPASMVVLCAVVVVGALVVAA-QGGGEEAAAASTGKAALVPALFVFGDSLID  59
+            MLM+TLRPAPASMVVLCAVVVVGA+ V   +GGG E AAASTGKAA+VPALFVFGDSLID
+Sbjct  1    MLMATLRPAPASMVVLCAVVVVGAVFVVVAEGGGSEEAAASTGKAAMVPALFVFGDSLID  60
+
+Query  60   NGNNNNLASFAKANYYPYGIDFAGGPTGRFCNGYTIVDELA--------------SGHGQ  105
+            NGNNNNLASFAKANYYPYGIDFA GPTGRFCNGYTIVDELA              SGH Q
+Sbjct  61   NGNNNNLASFAKANYYPYGIDFAAGPTGRFCNGYTIVDELAELLGLPLVPPYSQASGHVQ  120
+
+Query  106  QLLKGVNFASAAAGILDESGGNFVGRIPFNQQIDNFETTVEQIAGAVG-KEAAASMVARS  164
+            QLL+GVNFASAAAGILDESGGNFVGRIPFNQQIDNFE TVEQIAGAVG KEAAASMVARS
+Sbjct  121  QLLQGVNFASAAAGILDESGGNFVGRIPFNQQIDNFEATVEQIAGAVGGKEAAASMVARS  180
+
+Query  165  ILFVGLGSNDYLNNYLMPNYHTRRRYNPRQFADLLADRYAAQLTRLYKAGARKFVVAGVG  224
+            ILFVGLGSNDYLNNYLMPNY+TRRRY PRQFADLLADRYAAQLTRLYKAGARKFVVAGVG
+Sbjct  181  ILFVGLGSNDYLNNYLMPNYNTRRRYTPRQFADLLADRYAAQLTRLYKAGARKFVVAGVG  240
+
+Query  225  SMGCIPNVLAQSMESRCSPEVDALVVPFNANVRAMLNRLNSGGLPGARLVFLDNYGVFKA  284
+            SMGCIPNVLAQS+ESRCSPEVDALVVPFNANVRAML RL+ GGLPGA LVFLDNYGVFKA
+Sbjct  241  SMGCIPNVLAQSVESRCSPEVDALVVPFNANVRAMLGRLDGGGLPGASLVFLDNYGVFKA  300
+
+Query  285  ILSDPAAYGFAVVDRGCCGIGRNSGQVTCLPFMPPCDGRERYVFWDAFHPTAAVNVLIAK  344
+            IL DPAA+GFAVVDRGCCGIGRN+GQVTCLPFMPPCDGR+RYVFWDAFHPTAAVNVLIA+
+Sbjct  301  ILGDPAAHGFAVVDRGCCGIGRNAGQVTCLPFMPPCDGRDRYVFWDAFHPTAAVNVLIAR  360
+
+Query  345  EAFYGGGDVVSPINVRRLAAL  365
+            EAFYGG DVVSPINVRRLAAL
+Sbjct  361  EAFYGGADVVSPINVRRLAAL  381
+
+
+
+
+>hypothetical protein OsI_27577 [Oryza sativa Indica Group]
+Sequence ID: EEC82803.1 Length: 381
+Range 1: 1 to 381
+
+Score:643 bits(1658), Expect:0.0, 
+Method:Compositional matrix adjust., 
+Identities:340/381(89%), Positives:352/381(92%), Gaps:16/381(4%)
+
+Query  1    MLMSTLRPAPASMVVLCAVVVVGALVVAA-QGGGEEAAAASTGKAALVPALFVFGDSLID  59
+            MLM+TLRPAPASMVVLCAVVVVGA+ V A +GGG E AAASTGKAA+VPALFVFGDSLID
+Sbjct  1    MLMATLRPAPASMVVLCAVVVVGAVFVVAAEGGGSEEAAASTGKAAMVPALFVFGDSLID  60
+
+Query  60   NGNNNNLASFAKANYYPYGIDFAGGPTGRFCNGYTIVDELA--------------SGHGQ  105
+            NGNNNNLASFAKANYYPYGIDFA GPTGRFCNGYTIVDELA              SGH Q
+Sbjct  61   NGNNNNLASFAKANYYPYGIDFAAGPTGRFCNGYTIVDELAELLGLPLVPPYSQASGHVQ  120
+
+Query  106  QLLKGVNFASAAAGILDESGGNFVGRIPFNQQIDNFETTVEQIAGAVG-KEAAASMVARS  164
+            QLL+GVNFASAAAGILDESGGNFVGRIPFNQQIDNFE TVEQIAGAVG KEAAASMVARS
+Sbjct  121  QLLQGVNFASAAAGILDESGGNFVGRIPFNQQIDNFEATVEQIAGAVGGKEAAASMVARS  180
+
+Query  165  ILFVGLGSNDYLNNYLMPNYHTRRRYNPRQFADLLADRYAAQLTRLYKAGARKFVVAGVG  224
+            ILFVGLGSNDYLNNYLMPNY+TRRRY PRQFADLLADRYAAQLTRLYKAGARKFVVAGVG
+Sbjct  181  ILFVGLGSNDYLNNYLMPNYNTRRRYTPRQFADLLADRYAAQLTRLYKAGARKFVVAGVG  240
+
+Query  225  SMGCIPNVLAQSMESRCSPEVDALVVPFNANVRAMLNRLNSGGLPGARLVFLDNYGVFKA  284
+            SMGCIPNVLAQS+ESRCSPEVDALVVPFNANVRAML RL+ GGLPGA LVFLDNYGVFKA
+Sbjct  241  SMGCIPNVLAQSVESRCSPEVDALVVPFNANVRAMLGRLDGGGLPGASLVFLDNYGVFKA  300
+
+Query  285  ILSDPAAYGFAVVDRGCCGIGRNSGQVTCLPFMPPCDGRERYVFWDAFHPTAAVNVLIAK  344
+            IL DPAA+GFAVVDRGCCGIGRN+GQVTCLPFMPPCDGR+RYVFWDAFHPTAAVNVLIA+
+Sbjct  301  ILGDPAAHGFAVVDRGCCGIGRNAGQVTCLPFMPPCDGRDRYVFWDAFHPTAAVNVLIAR  360
+
+Query  345  EAFYGGGDVVSPINVRRLAAL  365
+            EAFYGG DVVSPINVRRLAAL
+Sbjct  361  EAFYGGADVVSPINVRRLAAL  381
+
+
+
+
+>GDSL esterase/lipase At1g71691-like [Oryza glaberrima]
+Sequence ID: XP_052164269.1 Length: 381
+Range 1: 1 to 381
+
+Score:643 bits(1658), Expect:0.0, 
+Method:Compositional matrix adjust., 
+Identities:340/381(89%), Positives:353/381(92%), Gaps:16/381(4%)
+
+Query  1    MLMSTLRPAPASMVVLCAVVVVGALVVAA-QGGGEEAAAASTGKAALVPALFVFGDSLID  59
+            MLM+TLRPAPASMVVLCAVVVVGA++V A +GGG E AAASTGKAA+VPALFVFGDSLID
+Sbjct  1    MLMATLRPAPASMVVLCAVVVVGAVLVVAAEGGGSEEAAASTGKAAMVPALFVFGDSLID  60
+
+Query  60   NGNNNNLASFAKANYYPYGIDFAGGPTGRFCNGYTIVDELA--------------SGHGQ  105
+            NGNNNNLASFAKANYYPYGIDFA GPTGRFCNGYTIVDELA              SGH Q
+Sbjct  61   NGNNNNLASFAKANYYPYGIDFAAGPTGRFCNGYTIVDELAELLGLPLVPPYSQASGHVQ  120
+
+Query  106  QLLKGVNFASAAAGILDESGGNFVGRIPFNQQIDNFETTVEQIAGAVG-KEAAASMVARS  164
+            QLL+GVNFASAAAGILDESGGNFVGRIPFNQQIDNFE TVEQIAGAVG KEAAASMVARS
+Sbjct  121  QLLQGVNFASAAAGILDESGGNFVGRIPFNQQIDNFEATVEQIAGAVGGKEAAASMVARS  180
+
+Query  165  ILFVGLGSNDYLNNYLMPNYHTRRRYNPRQFADLLADRYAAQLTRLYKAGARKFVVAGVG  224
+            ILFVGLGSNDYLNNYLMPNY+TRRRY PRQFADLLADRYAAQLTRLYKAGARKFVVAGVG
+Sbjct  181  ILFVGLGSNDYLNNYLMPNYNTRRRYTPRQFADLLADRYAAQLTRLYKAGARKFVVAGVG  240
+
+Query  225  SMGCIPNVLAQSMESRCSPEVDALVVPFNANVRAMLNRLNSGGLPGARLVFLDNYGVFKA  284
+            SMGCIPNVLAQS+ESRCSPEVDALVVPFNANVRAML RL+ GGLPGA LVFLDNYGVFKA
+Sbjct  241  SMGCIPNVLAQSVESRCSPEVDALVVPFNANVRAMLGRLDGGGLPGASLVFLDNYGVFKA  300
+
+Query  285  ILSDPAAYGFAVVDRGCCGIGRNSGQVTCLPFMPPCDGRERYVFWDAFHPTAAVNVLIAK  344
+            IL DPAA+GFAVVDRGCCGIGRN+GQVTCLPFMPPCDGR+RYVFWDAFHPTAAVNVLIA+
+Sbjct  301  ILGDPAAHGFAVVDRGCCGIGRNAGQVTCLPFMPPCDGRDRYVFWDAFHPTAAVNVLIAR  360
+
+Query  345  EAFYGGGDVVSPINVRRLAAL  365
+            EAFYGG DVVSPINVRRLAAL
+Sbjct  361  EAFYGGADVVSPINVRRLAAL  381
+
+
+
+
+>hypothetical protein GUJ93_ZPchr0010g11124 [Zizania palustris]
+Sequence ID: KAG8086647.1 Length: 357
+Range 1: 31 to 357
+
+Score:550 bits(1418), Expect:0.0, 
+Method:Compositional matrix adjust., 
+Identities:268/328(82%), Positives:295/328(89%), Gaps:13/328(3%)
+
+Query  50   LFVFGDSLIDNGNNNNLASFAKANYYPYGIDFAGGPTGRFCNGYTIVDELAS--------  101
+            LFVFGDSLIDNGNNNN+AS AKANY+PYGIDFA GPTGRFCNGYT+VDELA         
+Sbjct  31   LFVFGDSLIDNGNNNNMASLAKANYFPYGIDFAAGPTGRFCNGYTVVDELAELLGLPLVP  90
+
+Query  102  ----GHGQQLLKGVNFASAAAGILDESGGNFVGRIPFNQQIDNFETTVEQIAGAVGKEAA  157
+                  GQQLL+GVN+ASAAAGILD+SGGNFVGRIPFNQQI NFE+TVEQIAGAVG+EAA
+Sbjct  91   PYSQASGQQLLQGVNYASAAAGILDDSGGNFVGRIPFNQQIQNFESTVEQIAGAVGREAA  150
+
+Query  158  ASMVARSILFVGLGSNDYLNNYLMPNYHTRRRYNPRQFADLLADRYAAQLTRLYKAGARK  217
+            A+MVA+SILFVGLGSNDYLNNYLMPNY+TRR YNPRQFADLL  +YAAQLTRLY AGARK
+Sbjct  151  AAMVAQSILFVGLGSNDYLNNYLMPNYNTRREYNPRQFADLLTQQYAAQLTRLYNAGARK  210
+
+Query  218  FVVAGVGSMGCIPNVLAQSMESRCSPEVDALVVPFNANVRAMLNRLNSGGLPGARLVFLD  277
+            FVVAGVGSMGCIP+VLAQS+E+RCSP VD LV+PFNANVRAML+  N+ GLPGAR V+LD
+Sbjct  211  FVVAGVGSMGCIPSVLAQSLENRCSPAVDELVLPFNANVRAMLDGFNA-GLPGARFVYLD  269
+
+Query  278  NYGVFKAILSDPAAYGFAVVDRGCCGIGRNSGQVTCLPFMPPCDGRERYVFWDAFHPTAA  337
+            NY VFKAI +DPAAYGF+VVDRGCCGIGRNSGQ++CLPFMPPCD R+RYVFWDAFHPTAA
+Sbjct  270  NYAVFKAIHADPAAYGFSVVDRGCCGIGRNSGQISCLPFMPPCDDRQRYVFWDAFHPTAA  329
+
+Query  338  VNVLIAKEAFYGGGDVVSPINVRRLAAL  365
+            VNVLIA++AF GG DVVSPINVRRLA+L
+Sbjct  330  VNVLIARQAFDGGADVVSPINVRRLASL  357
+
+
+
+
+>GDSL esterase/lipase At1g71691 [Oryza brachyantha]
+Sequence ID: XP_006659756.1 Length: 366
+Range 1: 25 to 366
+
+Score:546 bits(1406), Expect:0.0, 
+Method:Compositional matrix adjust., 
+Identities:284/343(83%), Positives:300/343(87%), Gaps:20/343(5%)
+
+Query  42   GKAALVPALFVFGDSLIDNGNNNNLASFAKANYYPYGIDFAGGPTGRFCNGYTIVDELA-  100
+            GK A VPALFVFGDSLIDNGNNNNLAS AKANYYPYGIDFAGG TGRFCNGYTIVDELA 
+Sbjct  25   GKPA-VPALFVFGDSLIDNGNNNNLASLAKANYYPYGIDFAGGATGRFCNGYTIVDELAE  83
+
+Query  101  -------------SGHGQQLLKGVNFASAAAGILDESGGNFVGRIPFNQQIDNFETTVEQ  147
+                         SG+G+QLL GVNFASAAAGILD++GGNFVGRIPFNQQIDNFE  VEQ
+Sbjct  84   LLGLPLLPPYSQASGNGKQLLHGVNFASAAAGILDDTGGNFVGRIPFNQQIDNFEAAVEQ  143
+
+Query  148  IAGAVGKEAAASMVARSILFVGLGSNDYLNNYLMPNYHTRRRYNPRQFADLLADRYAAQL  207
+            IAGAVGKEAAA+MVARSILFVGLGSNDYLNNYLMPNY+TRR+Y+P QFADLLA RYAAQL
+Sbjct  144  IAGAVGKEAAAAMVARSILFVGLGSNDYLNNYLMPNYNTRRQYSPAQFADLLAARYAAQL  203
+
+Query  208  TRLYKAGARKFVVAGVGSMGCIPNVLAQSMESRCSPEVDALVVPFNANVRAMLNRLN---  264
+            TRLY+AGARKFVVAGVGSMGCIPNVLAQS+ES CSPEVD LV+PFNANVRAM++RLN   
+Sbjct  204  TRLYEAGARKFVVAGVGSMGCIPNVLAQSVESLCSPEVDGLVLPFNANVRAMIDRLNGGA  263
+
+Query  265  --SGGLPGARLVFLDNYGVFKAILSDPAAYGFAVVDRGCCGIGRNSGQVTCLPFMPPCDG  322
+               GGL GARLVFLDNYGVFK IL DPAA+GF VVDRGCCGIGRNSGQVTCLPFMPPCD 
+Sbjct  264  GAGGGLAGARLVFLDNYGVFKGILGDPAAHGFRVVDRGCCGIGRNSGQVTCLPFMPPCDD  323
+
+Query  323  RERYVFWDAFHPTAAVNVLIAKEAFYGGGDVVSPINVRRLAAL  365
+            R  YVFWDAFHPTAAVNVL+A+ AFYG  DVVSPINV RLA L
+Sbjct  324  RRGYVFWDAFHPTAAVNVLVARLAFYGSADVVSPINVGRLATL  366
+
