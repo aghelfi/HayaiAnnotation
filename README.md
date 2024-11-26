@@ -80,10 +80,8 @@ bash Miniconda3-latest-Linux-x86_64.sh
 source ~/.bashrc
 ```
 ### Clone the Repository
-Create a directory for Hayai Annotation and clone the repository:
+Clone the repository:
 ```
-mkdir hayai
-cd hayai
 git clone https://github.com/aghelfi/HayaiAnnotation.git
 ```
 ### Set Up the Environment
@@ -91,7 +89,7 @@ Use the provided env.yml file to set up the Conda environment.
 
 1. Navigate to the cloned repository:
 ```
-cd hayai-annotation
+cd HayaiAnnotation
 ```
 2. Create and activate the Conda environment:
 ```
@@ -113,7 +111,7 @@ Please cite: http://dx.doi.org/10.1038/s41592-021-01101-x Nature Methods (2021)
 ### Download the Database
 Navigate to the **db** directory:
 ```
-cd hayai-annotation/db
+cd HayaiAnnotation/db
 ```
 Step 1: Download the Database
 
@@ -143,7 +141,7 @@ If the file is intact, you will see a success message.
 1. Install RStudio Desktop.
 2. Open RStudio and set the working directory to the cloned repository:
 ```
-setwd("/path/to/hayai")
+setwd("/path/to/HayaiAnnotation")
 ```
 3. Run the application:
 ```
@@ -174,7 +172,7 @@ ssh -L 8888:localhost:8888 -L 8787:localhost:8787 username@your.server
 2. Activate the Conda environment and start Jupyter Lab:
   
 ```
-cd /path/to/hayai
+cd /path/to/HayaiAnnotation
 conda activate hayai_v3.2
 jupyter lab
 ```
@@ -182,7 +180,7 @@ jupyter lab
    
    - Open your browser and navigate to http://localhost:8888.
 
-5. Start the Shiny app in Jupyter Lab's terminal:
+5. Start the Shiny app in Jupyter Lab's R console:
    
 ```
 shiny::runApp('Hayai_v3.2.3.R', host = '0.0.0.0', port = 8787)
@@ -206,8 +204,8 @@ shiny::runApp('Hayai_v3.2.3.R', host = '0.0.0.0', port = 8787)
 ## Note
 
   - Jupyter Lab can be used locally as an alternative to RStudio.
-  - To minimize unnecessary downloads and installations, it is recommended to run Hayai in the same directory.
-  - Before beginning a new analysis, ensure that all necessary files are downloaded and that your input dataset is formatted correctly in FASTA.
+  - To minimize unnecessary downloads and installations, it is recommended to run Hayai-Annotation always in the same directory.
+  - Before beginning a new analysis, ensure that all necessary files are downloaded.
   - To run OrthoLoger, the FASTA file must contain protein sequences, not DNA sequences.
 
 ---
