@@ -1,90 +1,189 @@
-# Hayai Annotation v3.0
+# Hayai Annotation v3.2
 
-A functional gene prediction tool that integrates orthologs and gene ontology for network analysis
+A functional gene prediction tool that integrates orthologs and gene ontology for network analysis in plant species.
 
-Hayai-Annotation v3 (HAv3) is an R-Shiny application that uses two methods to infer functional annotation: DIAMOND for sequence alignment using UniProtKB Plants as a database and the orthomapper function from OrthoLoger using the node Viridiplantae to detect orthologs.
+Hayai Annotation v3.2 is an R-Shiny application that employs two approaches to infer functional annotation:
 
-## Operation System
-- Run on Linux and MacOS (Intel)
-- Configured to work with 10 threads
+- **DIAMOND**: For sequence alignment using the UniProtKB Plants database.
+- **OrthoLoger's orthomapper**: Utilizing the *Viridiplantae* node to detect orthologs.
 
-## Dependencies
+---
 
-### Summary 
-Clone this repository and follow the instructions in the README.txt files in the directories 'db', 'src' and 'src/orthologer'.
+## Table of Contents
 
+- [Features](#features)
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
+  - [Install Conda](#install-conda)
+  - [Clone the Repository](#clone-the-repository)
+  - [Set Up the Environment](#set-up-the-environment)
+  - [Download the Database](#download-the-database)
+  - [Verify the Download](#verify-the-download)
+- [Usage](#usage)
+  - [Running Locally with RStudio](#running-locally-with-rstudio)
+  - [Running on a Remote Server](#running-on-a-remote-server)
+- [Output](#output)
 
-### Full instructions
+---
 
-### Install [Orthologer Docker v3.0.5](https://orthologer.ezlab.org/)
+## Features
+
+- Integrates sequence alignment and ortholog detection for comprehensive functional annotation.
+- Supports both protein and DNA FASTA sequences.
+- Provides a user-friendly GUI via R-Shiny.
+- Outputs results and graphics, downloadable as a zip file.
+
+---
+
+## Prerequisites
+
+1. **Conda**: Required for managing dependencies and setting up the environment.
+2. **Operating System**: Linux or macOS (Intel-based).  
+   **Note**: Ensure your system supports Conda and R.
+3. **RStudio**: For local installations, download [RStudio Desktop](https://posit.co/download/rstudio-desktop/).  
+   For remote servers, follow the instructions in the [Running on a Remote Server](#running-on-a-remote-server) section.
+
+---
+
+## Installation
+
+### Install Conda
+
+1. Download the latest Miniconda installer for Linux:
 
 ```
-docker pull ezlabgva/orthologer:v3.0.5
-
-# create a workdir for HAv3 called hayai
-
-mkdir -p ./hayai/src/orthologer
-cd ./hayai/src/orthologer
-docker run -u $(id -u) -v .:/odbwork ezlabgva/orthologer:v3.0.5 setup_odb.sh
-
-# change 'odb10' to 'odb11': export BUSCO_ODB_VERSION="odb10" -> export BUSCO_ODB_VERSION="odb11" 
-
-awk '{gsub("odb10", "odb11"); print $0}' orthomapper_conf.sh > temp_orthomapper_conf.sh
-mv temp_orthomapper_conf.sh orthomapper_conf.sh
-egrep "odb11" orthomapper_conf.sh
+wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
 ```
-<pre>
-egrep result should be as below:
+2. Run the installer:
+```
+bash Miniconda3-latest-Linux-x86_64.sh
+```
+3. Follow the on-screen instructions to complete the installation. Once installed, restart your terminal or run:
 
-  # BUSCO orthodb version string (eg odb11)
-  export BUSCO_ODB_VERSION="odb11"
-</pre>
+```
+source ~/.bashrc
+```
+### Clone the Repository
+Create a directory for Hayai Annotation and clone the repository:
+```
+mkdir hayai
+cd hayai
+git clone https://github.com/aghelfi/HayaiAnnotation.git
+```
+### Set Up the Environment
+Use the provided env.yml file to set up the Conda environment.
 
-### Install [Diamond v2.1.9](https://github.com/bbuchfink/diamond/wiki/2.-Installation)
-Example for Linux: Download diamond and place on src directory
+1. Navigate to the cloned repository:
 ```
-cd hayai/src
-wget https://github.com/bbuchfink/diamond/releases/download/v2.1.9/diamond-linux64.tar.gz
-tar xzf diamond-linux64.tar.gz
+cd hayai-annotation
 ```
+2. Create and activate the Conda environment:
+```
+conda env create -f env.yml
+conda activate hayai_v3.2
+```
+This will install all required dependencies, including R and R packages, DIAMOND, and OrthoLoger.
 
-#### Test if diamond is working 
+3. Verify installation of DIAMOND:
 ```
-./diamond help
+diamond help
 ```
-<pre>
+You should see output similar to:
+```
 diamond v2.1.9.163 (C) Max Planck Society for the Advancement of Science, Benjamin Buchfink, University of Tuebingen
 Documentation, support and updates available at http://www.diamondsearch.org
 Please cite: http://dx.doi.org/10.1038/s41592-021-01101-x Nature Methods (2021)
-</pre>
-
-### Download Database (DockerHub)
 ```
-cd hayai/db
-wget https://plantgarden.jp/download/zen.dmnd
-wget https://plantgarden.jp/download/zen.md5
-md5sum -c zen.md5
+### Download the Database
+Navigate to the **db** directory:
 ```
-<pre>
-  # the result should be:
-  zen.dmnd: OK
-</pre>
+cd hayai-annotation/db
+```
+Step 1: Download the Database
+The required database file zen.dmnd is hosted on Google Drive. Use the gdown utility to download it.
 
-### Install [R v4.3 or latest](https://cran.rstudio.com/) and [Rstudio-destop](https://posit.co/download/rstudio-desktop/) for local access. Install [Rstudio-server](https://posit.co/download/rstudio-server/) if running from a remote server
-Open Rstudio 
-Go to 'hayai' directory
+```
+gdown https://drive.google.com/uc?id=1C33bsP8HvsRlhsOJB4YWHWkttpDwMqNw
+```
+Note: If gdown fails, you may need to download the file using wget or curl 
 
-Load and Run the file Hayai_annotation_v3.R
-It will open a graphical interface, you may also open in the browser if you prefer.
+  - Using wget
+```
+wget -c -t 10 --retry-connrefused --waitretry=10 "https://drive.google.com/drive/folders/1C33bsP8HvsRlhsOJB4YWHWkttpDwMqNw?usp=sharing"
+```
+  - Using curl
+```
+curl -C - --retry 10 --retry-delay 10 -O "https://drive.google.com/drive/folders/1C33bsP8HvsRlhsOJB4YWHWkttpDwMqNw?usp=sharing"
+```
 
-Select Protein or DNA, based on you FASTA file.
-Upload the FASTA sequences and click on 'Submit'.
+---
+### Verify the Download
+After downloading, verify the integrity of the file:
+```
+md5sum -c zen.dmnd.md5
+```
+If the file is intact, you will see a success message.
 
+---
 
-![HAv3_RStudio](https://github.com/aghelfi/HayaiAnnotation/assets/5419143/4e7b647e-39d7-4486-9f88-f2de1629f7df)
+## Usage
 
-Upon completion, the results will be displayed in the GUI, and the complete results and graphics can be downloaded as a zip file using the 'Download Results' button.
-The output files are also available in the directory ./hayai/workspace 
+### Running Locally with RStudio
 
-![Figure_HA_v3_interface](https://github.com/aghelfi/HayaiAnnotation/assets/5419143/74d9ed33-1f00-45a1-bcbc-18aee4d3054b)
+1. Install RStudio Desktop.
+2. Open RStudio and set the working directory to the cloned repository:
+```
+setwd("/path/to/hayai")
+```
+3. Run the application:
+```
+shiny::runApp('Hayai_v3.2.3.R', host = '0.0.0.0', port = 8787)
+```
+4. Use the application:
 
+  - A GUI will appear.
+  - Select Protein or DNA based on your FASTA file.
+  - Upload your sequences in FASTA format.
+  - Click on Submit.
+
+5. Retrieve Results:
+   
+  - Results will be displayed in the GUI.
+  - Download complete results and graphics as a zip file using the Download Results button.
+  - Output files are also saved in the ./hayai/workspace directory.
+
+---
+
+### Running on a Remote Server
+
+1. SSH into the server with port forwarding:
+```
+ssh -L 8888:localhost:8888 -L 8787:localhost:8787 username@your.server
+```
+2. Activate the Conda environment and start Jupyter Lab:
+```
+cd /path/to/hayai
+conda activate hayai_v3.2
+jupyter lab
+```
+3. Access Jupyter Lab locally:
+   
+   - Open your browser and navigate to http://localhost:8888.
+
+5. Start the Shiny app in Jupyter Lab's terminal:
+```
+shiny::runApp('Hayai_v3.2.3.R', host = '0.0.0.0', port = 8787)
+```
+
+5. Access the Shiny app locally:
+   - Open your browser and navigate to http://localhost:8787.
+
+---
+
+## Output
+
+- Results are displayed within the GUI.
+- Downloadable as a zip file containing:
+  - Functional analysis reports.
+  - Graphics and network visualizations.
+- All output files are saved in the ./hayai/workspace directory.
