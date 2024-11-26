@@ -47,6 +47,8 @@ Hayai Annotation v3.2 is an R-Shiny application that employs two approaches to i
 
   - Provides an intuitive interface for comparative annotation analysis between two species. Leveraging ortholog relationships to map genes across species and analyzing their functional similarity through gene ontology (GO) co-occurrences, specifically within Molecular Function (MF) and Biological Process (BP) GO domains.
 
+![leaf_development_network](https://github.com/user-attachments/assets/0bfa8efe-ae09-4b90-9253-20c439f1470f)
+
 ---
 
 ## Prerequisites
