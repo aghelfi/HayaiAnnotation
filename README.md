@@ -29,10 +29,23 @@ Hayai Annotation v3.2 is an R-Shiny application that employs two approaches to i
 
 ## Features
 
-- Integrates sequence alignment and ortholog detection for comprehensive functional annotation.
-- Supports both protein and DNA FASTA sequences.
-- Provides a user-friendly GUI via R-Shiny.
-- Outputs results and graphics, downloadable as a zip file.
+### The Functional Annotation Module
+
+  ![Figure1](https://github.com/user-attachments/assets/f2c8c95c-0533-4370-bff7-fe96de82aebd)
+
+  - Implements DIAMOND to align sequences against UniProtKB-Plants (Viridiplantae) database, now including algae.
+  - Incorporates ortholog information by integrating OrthoLoger.
+  - Supports both protein and DNA FASTA sequences.
+  - Provides a user-friendly GUI via R-Shiny.
+  - Output results and graphics, downloadable as a zip file.
+
+
+### The Network Analysis Module
+
+![Figure2](https://github.com/user-attachments/assets/72bdcadd-1d13-4b64-90f4-14bda4d3d2e0)
+
+
+  - Provides an intuitive interface for comparative annotation analysis between two species. Leveraging ortholog relationships to map genes across species and analyzing their functional similarity through gene ontology (GO) co-occurrences, specifically within Molecular Function (MF) and Biological Process (BP) GO domains.
 
 ---
 
