@@ -100,18 +100,12 @@ Navigate to the **db** directory:
 cd hayai-annotation/db
 ```
 Step 1: Download the Database
-The required database file zen.dmnd is hosted on Google Drive. Use the gdown utility to download it.
 
-```
-gdown https://drive.google.com/uc?id=1C33bsP8HvsRlhsOJB4YWHWkttpDwMqNw
-```
-Note: If gdown fails, you may need to download the file using wget or curl 
-
-  - Using wget
+  - Option 1: Using wget
 ```
 wget -c -t 10 --retry-connrefused --waitretry=10 "https://drive.google.com/drive/folders/1C33bsP8HvsRlhsOJB4YWHWkttpDwMqNw?usp=sharing"
 ```
-  - Using curl
+  - Option 2: Using curl
 ```
 curl -C - --retry 10 --retry-delay 10 -O "https://drive.google.com/drive/folders/1C33bsP8HvsRlhsOJB4YWHWkttpDwMqNw?usp=sharing"
 ```
