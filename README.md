@@ -53,15 +53,17 @@ Hayai Annotation v3.2 is an R-Shiny application that employs two approaches to i
 
 1. **Conda**: Required for managing dependencies and setting up the environment.
 2. **Operating System**: Linux or macOS (Intel-based).  
-   **Note**: Ensure your system supports Conda and R.
-3. **RStudio**: For local installations, download [RStudio Desktop](https://posit.co/download/rstudio-desktop/).  
-   For remote servers, follow the instructions in the [Running on a Remote Server](#running-on-a-remote-server) section.
+   **Note**: Ensure your system supports Conda.
+3. **Jupiter Lab**: This setup is compatible with remote servers and local installations: Follow the instructions in the [Running on a Remote Server](#running-on-a-remote-server) section.
+4. Optional **RStudio**: For local installations, download [RStudio Desktop](https://posit.co/download/rstudio-desktop/).
+   
+   
 
 ---
 
 ## Installation
 
-### Install Conda
+### Install [Conda](https://docs.anaconda.com/miniconda/install/)
 
 1. Download the latest Miniconda installer for Linux:
 
