@@ -23,6 +23,7 @@ Hayai Annotation v3.2 is an R-Shiny application that employs two approaches to i
   - [Running Locally with RStudio](#running-locally-with-rstudio)
   - [Running on a Remote Server](#running-on-a-remote-server)
 - [Output](#output)
+- [Note](#note)
 
 ---
 
@@ -151,10 +152,12 @@ shiny::runApp('Hayai_v3.2.3.R', host = '0.0.0.0', port = 8787)
 ### Running on a Remote Server
 
 1. SSH into the server with port forwarding:
+   
 ```
 ssh -L 8888:localhost:8888 -L 8787:localhost:8787 username@your.server
 ```
 2. Activate the Conda environment and start Jupyter Lab:
+  
 ```
 cd /path/to/hayai
 conda activate hayai_v3.2
@@ -165,19 +168,31 @@ jupyter lab
    - Open your browser and navigate to http://localhost:8888.
 
 5. Start the Shiny app in Jupyter Lab's terminal:
+   
 ```
 shiny::runApp('Hayai_v3.2.3.R', host = '0.0.0.0', port = 8787)
 ```
 
 5. Access the Shiny app locally:
+
    - Open your browser and navigate to http://localhost:8787.
 
 ---
 
 ## Output
 
-- Results are displayed within the GUI.
-- Downloadable as a zip file containing:
-  - Functional analysis reports.
-  - Graphics and network visualizations.
-- All output files are saved in the ./hayai/workspace directory.
+  - Results are displayed within the GUI.
+  - Downloadable as a zip file containing:
+    - Functional analysis reports.
+    - Graphics and network tables.
+  - All output files are saved in the ./hayai/workspace directory.
+
+---
+## Note
+
+  - Jupyter Lab can be used locally as an alternative to RStudio.
+  - To minimize unnecessary downloads and installations, it is recommended to run Hayai in the same directory.
+  - Before beginning a new analysis, ensure that all necessary files are downloaded and that your input dataset is formatted correctly in FASTA.
+  - To run OrthoLoger, the FASTA file must contain protein sequences, not DNA sequences.
+
+---
