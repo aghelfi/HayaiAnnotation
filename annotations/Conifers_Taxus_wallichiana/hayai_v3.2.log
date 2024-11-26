@@ -1,0 +1,25 @@
+Hayai-Annotation Plants v3.2 
+ 
+Project Name:  Taxuschinensis 
+ Diamond sensitivity:  more-sensitive 
+ Number of threads:  10 
+ 
+Sequence alignment: Diamond v2.1.9.163, Database UniProtKB - Viridiplantae 
+ Started at: 2024-10-20 14:00:25 
+ Ended at: 2024-10-20 14:14:26 
+ Duration: 840.77 seconds 
+ 
+diamond command line:  diamond blastp -q ./temp/Taxuschinensis.fasta -d ./db/zen.dmnd -o ./temp/output_diamond.m10 --threads 10 --more-sensitive --top 1 --evalue 1e-6 --quiet --un ./workspace/unaligned.fasta -f 6 qseqid pident length qstart qend sstart send evalue bitscore stitle 
+ 
+Ortholog Identification: OrthoLoger conda v3.5 
+ Started at: 2024-10-20 14:14:26 
+ Ended at: 2024-10-20 14:26:23 
+ Duration: 716.74 seconds 
+ 
+Functional Annotation: Hayai v3.2 
+ Started at: 2024-10-20 14:26:23 
+ Ended at: 2024-10-20 14:26:25 
+ Duration: 2.02 seconds 
+ 
+Starting to create zip file: /tmp/RtmpWzStBh/fileb99409c41860.zip 
+Zip file creation completed successfully. 

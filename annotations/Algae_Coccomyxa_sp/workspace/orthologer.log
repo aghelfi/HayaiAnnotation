@@ -1,0 +1,90 @@
+10/20/2024 02:37:02 PM   INFO        <map>  --------------------------------------
+10/20/2024 02:37:02 PM   INFO        <map>  mapping command : MAP
+10/20/2024 02:37:02 PM   INFO        <map>  arguments       : Coccomyxa ./temp/Coccomyxa.fasta 33090
+10/20/2024 02:37:02 PM   INFO        <map>  --------------------------------------
+10/20/2024 02:37:02 PM   INFO        <map>  input file is of type: FASTA
+10/20/2024 02:37:02 PM   INFO        <map>  ---------------------------------------
+10/20/2024 02:37:02 PM   INFO        <map>  Initialise environment if needed
+10/20/2024 02:37:02 PM   INFO        <map>  ---------------------------------------
+10/20/2024 02:37:02 PM   INFO        <map>  start command INIT
+10/20/2024 02:37:02 PM   INFO        <map>  pipeline looks OK
+10/20/2024 02:37:02 PM   INFO        <map>  ---------------------------------------
+10/20/2024 02:37:02 PM   INFO        <map>  Load local config (orthologer_conf.sh)
+10/20/2024 02:37:02 PM   INFO        <map>  ---------------------------------------
+10/20/2024 02:37:02 PM   INFO        <map>  ---------------------------------------
+10/20/2024 02:37:02 PM   INFO        <map>  Setup ODB environment
+10/20/2024 02:37:02 PM   INFO        <map>  ---------------------------------------
+10/20/2024 02:37:03 PM   INFO        <map>  ---------------------------------------
+10/20/2024 02:37:03 PM   INFO        <map>  Import 1 fasta file(s)
+10/20/2024 02:37:03 PM   INFO        <map>  ---------------------------------------
+10/20/2024 02:37:03 PM   INFO        <map>  import fasta file (id = Coccomyxa) -> /home/andrea/projects/kdri/hayai_v3.2/temp/Coccomyxa.fasta
+/home/andrea/miniconda3/envs/hayai_v3.2/orthologer/bin/common_manage_project.sh: line 203: verbose_msg: command not found
+10/20/2024 02:37:03 PM   INFO        <map>  imported id <Coccomyxa> , file /home/andrea/projects/kdri/hayai_v3.2/temp/Coccomyxa.fasta
+10/20/2024 02:37:03 PM   INFO        <map>  ---------------------------------------
+10/20/2024 02:37:03 PM   INFO        <map>  Download ODB 33090
+10/20/2024 02:37:03 PM   INFO        <map>  ---------------------------------------
+10/20/2024 02:37:03 PM   INFO        <map>  node is already installed : 33090
+10/20/2024 02:37:03 PM   INFO        <map>  ---------------------------------------
+10/20/2024 02:37:03 PM   INFO        <map>  Import ODB 33090 to project
+10/20/2024 02:37:03 PM   INFO        <map>  ---------------------------------------
+10/20/2024 02:37:03 PM   INFO        <map>  attempt to import DB node 33090
+10/20/2024 02:37:03 PM   INFO        <map>  find OrthoDB todo for node 33090
+10/20/2024 02:37:03 PM   INFO        <map>  command_dbimport - all requested nodes are available : 33090
+10/20/2024 02:37:03 PM   INFO        <map>  command_dbimport - moved to project dir at /home/andrea/projects/kdri/hayai_v3.2/odbmapper/v12/pipeline
+10/20/2024 02:37:03 PM   INFO        <map>  will import OrthoDB SUBSAMPLED data set
+10/20/2024 02:37:03 PM   INFO        <map>  find OrthoDB todo for node 33090
+10/20/2024 02:37:03 PM   INFO        <map>  for node 33090 , found root PLANTS and todo files /home/andrea/projects/kdri/hayai_v3.2/odbmapper/v12/data/eukaryota/todo/g33090_n8ssc.todo and /home/andrea/projects/kdri/hayai_v3.2/odbmapper/v12/data/eukaryota/todo/33090.todo
+10/20/2024 02:37:04 PM   INFO        <map>  create project directories based on todo file /home/andrea/projects/kdri/hayai_v3.2/odbmapper/v12/data/eukaryota/todo/g33090_n8ssc.todo
+10/20/2024 02:37:04 PM   INFO        <map>  create project dirs at /home/andrea/projects/kdri/hayai_v3.2/odbmapper/v12/pipeline
+10/20/2024 02:37:04 PM   INFO        <map>  created 0 directories
+10/20/2024 02:37:04 PM   INFO        <map>  importing OrthoDB data for todo file /home/andrea/projects/kdri/hayai_v3.2/odbmapper/v12/data/eukaryota/todo/g33090_n8ssc.todo (clade = PLANTS)
+10/20/2024 02:37:04 PM   INFO        <map>  will import DB for node 33090
+10/20/2024 02:37:04 PM   INFO        <map>  importing data for 335 labels at /home/andrea/projects/kdri/hayai_v3.2/odbmapper/v12/pipeline
+10/20/2024 02:37:04 PM   INFO        <map>  using todo file: /home/andrea/projects/kdri/hayai_v3.2/odbmapper/v12/data/eukaryota/todo/g33090_n8ssc.todo
+10/20/2024 02:37:04 PM   INFO        <map>  imported 0 todo file
+10/20/2024 02:37:04 PM   INFO        <map>  importing rawdata, in total 335 label(s)
+10/20/2024 02:37:04 PM   INFO        <map>  imported rawdata 0 files with 0 error(s)
+10/20/2024 02:37:04 PM   INFO        <map>  importing sequences
+10/20/2024 02:37:04 PM   INFO        <map>  imported sequences 0 files with 0 error(s)
+10/20/2024 02:37:04 PM   INFO        <map>  importing diagonal alignments from PWC
+10/20/2024 02:37:05 PM   INFO        <map>  imported 0 PWC files with 0 error(s)
+10/20/2024 02:37:05 PM   INFO        <map>  importing cluster data
+10/20/2024 02:37:05 PM   INFO        <map>  imported 0 cluster files
+10/20/2024 02:37:05 PM   INFO        <map>  ---------------------------------------
+10/20/2024 02:37:05 PM   INFO        <map>  Run mapping
+10/20/2024 02:37:05 PM   INFO        <map>  ---------------------------------------
+10/20/2024 02:37:05 PM   INFO        <map>  using full set of taxids, N = 1, hash id = a483a938
+10/20/2024 02:37:05 PM   INFO        <map>  subsampling parameters are the same as official subsampling - will download pre-subsampled data
+10/20/2024 02:37:05 PM   INFO        <map>  set run label to <Coccomyxa>
+10/20/2024 02:37:05 PM   INFO        <map>  ------------------------------------
+10/20/2024 02:37:05 PM   INFO        <map>  Start RUN with parameters:
+10/20/2024 02:37:05 PM   INFO        <map>  args             nodeid=33090 label=Coccomyxa GO
+10/20/2024 02:37:05 PM   INFO        <map>  mode             map
+10/20/2024 02:37:05 PM   INFO        <map>  label            Coccomyxa
+10/20/2024 02:37:05 PM   INFO        <map>  N(taxids)        1
+10/20/2024 02:37:05 PM   INFO        <map>  hashid           a483a938
+10/20/2024 02:37:05 PM   INFO        <map>  nodeid           33090
+10/20/2024 02:37:05 PM   INFO        <map>  nodeid is local  0
+10/20/2024 02:37:05 PM   INFO        <map>  using            
+10/20/2024 02:37:05 PM   INFO        <map>  subsample        8
+10/20/2024 02:37:05 PM   INFO        <map>  score            ssc
+10/20/2024 02:37:05 PM   INFO        <map>  ------------------------------------
+10/20/2024 02:37:05 PM   INFO        <map>  map_init_todo: make sure the todo files are there
+10/20/2024 02:37:05 PM   INFO        <map>  find source todo for node 33090 , clade PLANTS
+10/20/2024 02:37:05 PM   INFO        <map>  subsample label <g33090_n8ssc>
+10/20/2024 02:37:05 PM   INFO        <map>  found source todo : /home/andrea/projects/kdri/hayai_v3.2/odbmapper/v12/pipeline/todo/g33090_n8ssc.todo
+10/20/2024 02:37:05 PM   INFO        <map>  -------------------------------------------
+10/20/2024 02:37:05 PM   INFO        <map>  Map todo    : todo/Coccomyxa.todo
+10/20/2024 02:37:05 PM   INFO        <map>  Source todo : todo/g33090_n8ssc.todo
+10/20/2024 02:37:05 PM   INFO        <map>  -------------------------------------------
+10/20/2024 02:37:05 PM   INFO        <map>  creating map todo file at Coccomyxa.todo
+10/20/2024 02:37:05 PM   INFO        <map>  check if ready to run at project dir /home/andrea/projects/kdri/hayai_v3.2/odbmapper/v12/pipeline
+10/20/2024 02:37:05 PM   INFO        <map>  -----------------------------------
+10/20/2024 02:37:05 PM   INFO        <map>  Calling update_todo with
+10/20/2024 02:37:05 PM   INFO        <map>   - PL_TODO=todo/Coccomyxa.todo
+10/20/2024 02:37:05 PM   INFO        <map>   - PL_TODO1=todo/Coccomyxa.todo
+10/20/2024 02:37:05 PM   INFO        <map>   - PL_TODO2=todo/g33090_n8ssc.todo
+10/20/2024 02:37:05 PM   INFO        <map>  -----------------------------------
+10/20/2024 02:37:05 PM   INFO        <map>  run pipeline; logfile at RunLogs/Coccomyxa_20241020_143705.log
+10/20/2024 02:44:18 PM   INFO        <map>  pipeline done
+10/20/2024 02:44:18 PM   INFO        <map>  final result at: Results/Coccomyxa.og.annotations
