@@ -1,0 +1,25 @@
+Hayai-Annotation Plants v3.2 
+ 
+Project Name:  OpunctataOrthologer2 
+ Diamond sensitivity:  more-sensitive 
+ Number of threads:  10 
+ 
+Sequence alignment: Diamond v2.1.9.163, Database UniProtKB - Viridiplantae 
+ Started at: 2024-10-20 13:22:44 
+ Ended at: 2024-10-20 13:43:20 
+ Duration: 1235.21 seconds 
+ 
+diamond command line:  diamond blastp -q ./temp/OpunctataOrthologer2.fasta -d ./db/zen.dmnd -o ./temp/output_diamond.m10 --threads 10 --more-sensitive --top 1 --evalue 1e-6 --quiet --un ./workspace/unaligned.fasta -f 6 qseqid pident length qstart qend sstart send evalue bitscore stitle 
+ 
+Ortholog Identification: OrthoLoger conda v3.5 
+ Started at: 2024-10-20 13:43:20 
+ Ended at: 2024-10-20 13:55:16 
+ Duration: 716.67 seconds 
+ 
+Functional Annotation: Hayai v3.2 
+ Started at: 2024-10-20 13:55:16 
+ Ended at: 2024-10-20 13:55:19 
+ Duration: 2.6 seconds 
+ 
+Starting to create zip file: /tmp/RtmpWzStBh/fileb99406d4bd794.zip 
+Zip file creation completed successfully. 
