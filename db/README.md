@@ -1,6 +1,5 @@
 
-```
-# Database Setup for the `db` Directory
+## Database Setup for the `db` Directory
 
 This directory contains the necessary files for database setup. Follow the steps below to download and verify the required database files.
 
@@ -34,10 +33,8 @@ md5sum -c zen.dmnd.md5
 
 This command will compare the checksum of the downloaded file against the provided checksum in `zen.dmnd.md5`. If the file is intact, you will see a message indicating success.
 
----
 
-### Notes:
+### Note:
 - If the checksum verification fails, re-download the file to avoid data corruption issues.
-``` 
 
 
