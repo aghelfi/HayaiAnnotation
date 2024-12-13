@@ -1,0 +1,62 @@
+CLUSTAL O(1.2.4) multiple sequence alignment
+
+
+OPUNC01G00060.3      MTSLWGGRGGQGGRGSRAPSACWTAVRETFRAKIVDTVAQAYELVQVLGGDLDGMKHNVD	60
+OPUNC01G00060.1      MTSLWGGRGGQGGRGSRAPSACWTAVRETFRAKIVDTVAQAYELVQVLGGDLDGMKHNVD	60
+OPUNC01G00060.2      ------------------------------------------------------------	0
+                                                                                 
+
+OPUNC01G00060.3      RLCLVKSVHGFVYRLPQTGHQELDGAAGRCCCCCLPLVSRERVLLLPLPGKEHEDAGLAA	120
+OPUNC01G00060.1      RLCLVKSVHGFVYRLPQTGHQELDGAAGRCCCCCLPLVSRERVLLLPLPGKEHEDAGLAA	120
+OPUNC01G00060.2      ------------------------------------------------------------	0
+                                                                                 
+
+OPUNC01G00060.3      AVQPALNATVAADHRRPWTGTKGRGCAPATTSCAASTADATDEVTRRKPMGPSGVELDGC	180
+OPUNC01G00060.1      AVQPALNATVAADHRRPWTGTKGRGCAPATTSCAASTADATDEVTRRKPMGPSGVELDGC	180
+OPUNC01G00060.2      ------------------------------------------------------------	0
+                                                                                 
+
+OPUNC01G00060.3      VLGLASSTFSALLSYQTPATMFTIRMRKMTRGSTMTIAHDLTVLRAIIECKHERHNGQDE	240
+OPUNC01G00060.1      VLGLASSTFSALLSYQTPATMFTIRMRKMTRGSTMTIAHDLTVLRAIIECKHERHNGQDE	240
+OPUNC01G00060.2      ------------------------------------------------------------	0
+                                                                                 
+
+OPUNC01G00060.3      EDAHERVVELLEHQLPHRRCRRGGGARRWRPWRRRCTRCCECTADGGHRRRRWCWVAGCD	300
+OPUNC01G00060.1      EDAHERVVELLEHQLPHRRCRRGGGARRWRPWRRRCTRCCECTADGGHRRRRWCWVAGCD	300
+OPUNC01G00060.2      ------------------------------------------------------------	0
+                                                                                 
+
+OPUNC01G00060.3      CEDGDGSGLAEVVRKNLGRPGKI--------PRAMRTSTDPPR-------------L---	336
+OPUNC01G00060.1      CEDGDGSGLARSHGRCERAPIRRGCYSLSSVSGSVKRSRNPSCSDDDRGGVRRPVAAVAM	360
+OPUNC01G00060.2      -----------------------------------------------------------M	1
+                                                                                 
+
+OPUNC01G00060.3      ----LQLELGVGVGEEVSKP----------------------------------------	352
+OPUNC01G00060.1      VLGKIAIVIGSGIVGTVLTSGEAKIALPDFRDVLSGAFKFVTKQDRKDGPSTSSPHAAHL	420
+OPUNC01G00060.2      VLGKIAIVIGSGIVGTVLTSGEAKIALPDFRDVLSGAFKFVTKQDRKDGPSTSSPHAAHL	61
+                         : : :* *:   * .                                         
+
+OPUNC01G00060.3      ------------------------------------------------------------	352
+OPUNC01G00060.1      LSQVNHLREELQLLARSNQVAIVTVDGRPGPGAYGITAVVAGAIGYLYIWWKGWKLYDLM	480
+OPUNC01G00060.2      LSQVNHLREELQLLARSNQVAIVTVDGRPGPGAYGITAVVAGAIGYLYIWWKGWKLYDLM	121
+                                                                                 
+
+OPUNC01G00060.3      ------------------------------------------------------------	352
+OPUNC01G00060.1      FVTKRGLSDACNVVGKQLDQVSENVNAAKRHLAGRIDRVDCTLDECQEITESTRKEVTVI	540
+OPUNC01G00060.2      FVTKRGLSDACNVVGKQLDQVSENVNAAKRHLAGRIDRVDCTLDECQEITESTRKEVTVI	181
+                                                                                 
+
+OPUNC01G00060.3      ------------------------------------------------------------	352
+OPUNC01G00060.1      NGDISAFQEEMQSVHLVVRTLETKLGRLAYTQVLSSTPLPAIESPERITRAASLPRSSEP	600
+OPUNC01G00060.2      NGDISAFQEEMQSVHLVVRTLETKLGRLAYTQVLSSTPLPAIESPERITRAASLPRSSEP	241
+                                                                                 
+
+OPUNC01G00060.3      ------------------------------------------------------------	352
+OPUNC01G00060.1      EFSGPRSPVTEASKVVHSPTTMSASGLSMLVETSMPPKRGVLSRASSMREGSQEPSNGSS	660
+OPUNC01G00060.2      EFSGPRSPVTEASKVVHSPTTMSASGLSMLVETSMPPKRGVLSRASSMREGSQEPSNGSS	301
+                                                                                 
+
+OPUNC01G00060.3      ----------------------------	352
+OPUNC01G00060.1      SSGEPTIGRHVPNSRLFGGFGFLKSSAS	688
+OPUNC01G00060.2      SSGEPTIGRHVPNSRLFGGFGFLKSSAS	329
+                                                 

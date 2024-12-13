@@ -1,0 +1,82 @@
+CLUSTAL O(1.2.4) multiple sequence alignment
+
+
+OPUNC01G31890.1      --------------------MAGRRRRGD-----WIGAAWWCGCAVGMLVGACLAGETSE	35
+OPUNC12G18310.1      MEEHYCLLLPLNIYTSASAAMGMRFGLGARLVLVLAAAMWTC--------AAAAAGVTSE	52
+OPUNC12G18320.1      ------------------MAMGARRCSS-IIVAVLIVAAAAE--------AMRGPGTTSA	33
+                                         *. *   .         *            .    * ** 
+
+OPUNC01G31890.1      YRRQLGSAVDMPLDADVFRAPPGHNAPQQVHITQGNHDGTAMIISWVTTIEPGSSTVLYG	95
+OPUNC12G18310.1      YRRKLEATVDMPLDADVFRVPPGYNAPQQVHITLGDQTGTAMTVSWVTANELGSSTVRYG	112
+OPUNC12G18320.1      YRRPKKKMEDMPLDADVFAEPAGRNAPQQVHITLGDQTGTAMTVSWVTMEEAGNSTVMYG	93
+                     ***      *********  * * ********* *:: **** :****  * *.*** **
+
+OPUNC01G31890.1      TSEDNLNFSADGKQTQYTFYNYTSGYIHHCTIKKLEFDTKYYYAVGIGQTVRKFWFRTPP	155
+OPUNC12G18310.1      SSPEKLEHAAEGSHTRYDYFNYTSGFIHHCTLTGLNHATKYYYAMGFGHTVRTFSFTTPP	172
+OPUNC12G18320.1      LAMDKLDMAADATVTTYKYYNYTSGFIHHCTLINLQYGVKYYYAMGFGFTVRTFWFTTPP	153
+                      : ::*: :*:.. * * ::*****:*****:  *:. .*****:*:* ***.* * ***
+
+OPUNC01G31890.1      KSGPDVPYTFGLIGDLGQSYDSNITLAHYESNSKAQAVLFVGDLCYADNYPYHDNVRWDT	215
+OPUNC12G18310.1      KPGPDVPFKFGLIGDLGQTFDSNSTLAHYEANG-GDAVLFVGDLSYADNHPLHDNNRWDT	231
+OPUNC12G18320.1      RPGPDVAFRLGLIGDIGQTFDSNATLTHYEATG-GDAVLFMGDLSYADKHPLHDNNRWDT	212
+                     : **** : :*****:**::*** **:***:.. .:****:***.***::* *** ****
+
+OPUNC01G31890.1      WARFVERNVAYQPWIWTAGNHEIDFAPELGETKPFKPYSYRYPTPYKASGSTAPFWYSVK	275
+OPUNC12G18310.1      WARFVERSVAYQPWIWTAGNHELDFAPELGETVPFKPFTHRYPTPYRAAASTEPFWYSVK	291
+OPUNC12G18320.1      WGRFSERSVAYQPWIWVAGNHEIDYAPELGETKPFKPFTHRYPTPHLASASPEPYWYSVK	272
+                     *.** **.********.*****:*:******* ****:::*****: *:.*  *:*****
+
+OPUNC01G31890.1      RASAYIIVLASYSSYGKYTPQYKWLEAEFP-KVNRSETPWLIVLLHAPWYNSYNYHYMEG	334
+OPUNC12G18310.1      VASAHVIVLASYSAYGKYTPQWTWLQEELATRVDRKVTPWLIVLMHSPWYNSNSYHYMEG	351
+OPUNC12G18320.1      LASAHIIVLSSYSAFAKYTPQWKWLEAELA-RVNRSETPWLIMASHSPWYNSNNFHYMEG	331
+                      ***::***:***::.*****:.**: *:  :*:*. *****:  *:***** .:*****
+
+OPUNC01G31890.1      ESMRVMYEPWFVKYKVDLVFAGHVHAYERTHRISNVAYNIVNGQCTPVHDQSAPVYITIG	394
+OPUNC12G18310.1      ETMRVQFERWLVDAKVDLVLAGHVHSYERSRRFSNIDYDIVNGKATPAPNANAPVYITIG	411
+OPUNC12G18320.1      ESMRVQFEKMAVDARVDLVFAGHVHAYERSFRVSNIRYNITDGLCTPVRDRRAPVYVTIG	391
+                     *:*** :*   *. :****:*****:***: *.**: *:*.:* .**. :  ****:***
+
+OPUNC01G31890.1      DGGNQEGLATNMTAPQPSYSAFRESSFGHAILDIKNRTHAYYTWHRNQDGNAVAADSMWF	454
+OPUNC12G18310.1      DGGNIEGIANNFTLPQPSYSAFREASFGHATLEIMNRTHAHYAWHRNHDGAKAVADAVWL	471
+OPUNC12G18320.1      DGGNIEGLADEMTYPQPAYSAFREDSFGHAVLDIKNRTHAYYAWYRNDDGAKVAADAVWF	451
+                     **** **:* ::* ***:****** ***** *:* *****:*:*:**.**  ..**::*:
+
+OPUNC01G31890.1      TNRYWQPTNESLDDSQ--------------------------------------------	470
+OPUNC12G18310.1      TNRYWMPTNDDYEALCACAPMANTTAAARGVASEGEDGQRGGVGGGAMLRDARVPAGVDL	531
+OPUNC12G18320.1      TNRFHMPNHDDSTPSKRHY-----------------------------------------	470
+                     ***:  *.::.                                                 
+
+OPUNC01G31890.1      ------------------------------------------------------------	470
+OPUNC12G18310.1      LRLPRLVLPRRRALPDMPIDADVFRPPPGFNAPEQVHITLGDLTGRAMIVSWVTPKLPDT	591
+OPUNC12G18320.1      ------------------------------------------------------------	470
+                                                                                 
+
+OPUNC01G31890.1      ------------------------------------------------------------	470
+OPUNC12G18310.1      NVVRYGLRADNLTHTANGTLRRYSFGRKYRSGFIHHATLTGLDHATKYHYAVGSGATARS	651
+OPUNC12G18320.1      ------------------------------------------------------------	470
+                                                                                 
+
+OPUNC01G31890.1      ------------------------------------------------------------	470
+OPUNC12G18310.1      FSFTTPPKPGPDVPYKFGLIGDLGQTFHSNDTLTHYEACGGDAVLYIGDLSYADNHPGHD	711
+OPUNC12G18320.1      ------------------------------------------------------------	470
+                                                                                 
+
+OPUNC01G31890.1      ------------------------------------------------------------	470
+OPUNC12G18310.1      NNRWDTWARFVERSVAYQPWIWTTGNHELDFAPELGETMPFKPFMNRYPTPFQASGSTRP	771
+OPUNC12G18320.1      ------------------------------------------------------------	470
+                                                                                 
+
+OPUNC01G31890.1      ------------------------------------------------------------	470
+OPUNC12G18310.1      LWYSVRMASAHVIVLASYAAYGKYTPQWRWLEGELKRVDRTVTPWLIVCVHSPWYNTNGY	831
+OPUNC12G18320.1      ------------------------------------------------------------	470
+                                                                                 
+
+OPUNC01G31890.1      ------------------------------------------------------------	470
+OPUNC12G18310.1      HYMEGESMRVEFERWLVDAKADVVLAGHVHSYERTRRVSNVDYDIVNIEGLADNFRWPQP	891
+OPUNC12G18320.1      ------------------------------------------------------------	470
+                                                                                 
+
+OPUNC01G31890.1      ------------------------------------------------------	470
+OPUNC12G18310.1      DYSVFREASFGHATLEIMNRTHAFYEWHRNSDGVKVVADRAWFTNRYWFPTDTN	945
+OPUNC12G18320.1      ------------------------------------------------------	470
+                                                                           

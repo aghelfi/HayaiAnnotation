@@ -1,0 +1,9 @@
+#
+#
+#  Percent Identity  Matrix - created by Clustal2.1 
+#
+#
+
+     1: OPUNC01G00060.3  100.00   89.77   18.75
+     2: OPUNC01G00060.1   89.77  100.00  100.00
+     3: OPUNC01G00060.2   18.75  100.00  100.00
