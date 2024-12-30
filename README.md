@@ -7,6 +7,8 @@ Hayai Annotation v3.2 is an R-Shiny application that employs two approaches to i
 - **DIAMOND**: For sequence alignment using the UniProtKB Plants database.
 - **OrthoLoger's orthomapper**: Utilizing the *Viridiplantae* node to detect orthologs.
 
+Research Article: [Hayai Annotation v3.2](https://doi.org/10.1016/j.csbj.2024.12.011) 
+
 ---
 
 ## Table of Contents
@@ -24,6 +26,7 @@ Hayai Annotation v3.2 is an R-Shiny application that employs two approaches to i
   - [Running on a Remote Server](#running-on-a-remote-server)
 - [Output](#output)
 - [Note](#note)
+- [Citation](#citation)
 
 ---
 
@@ -211,3 +214,6 @@ shiny::runApp('Hayai_v3.2.3.R', host = '0.0.0.0', port = 8787)
   - To run OrthoLoger, the FASTA file must contain protein sequences, not DNA sequences.
 
 ---
+## Citation 
+
+Ghelfi, Andrea and Isobe, Sachiko. Hayai-Annotation: A functional gene prediction tool that integrates orthologs and gene ontology for network analysis in plant species. Computational and Structural Biotechnology Journal, Volume 27, 117 - 126. DOI: 10.1016/j.csbj.2024.12.011.
