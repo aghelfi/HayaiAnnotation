@@ -114,19 +114,11 @@ Documentation, support and updates available at http://www.diamondsearch.org
 Please cite: http://dx.doi.org/10.1038/s41592-021-01101-x Nature Methods (2021)
 ```
 ### Download the Database
-Navigate to the **db** directory:
+Navigate to the **HayaiAnnotation/db** directory:
 ```
 cd HayaiAnnotation/db
-```
-Step 1: Download the Database
-
-  - Option 1: Using wget
-```
-wget -c -t 10 --retry-connrefused --waitretry=10 "https://drive.google.com/drive/folders/1C33bsP8HvsRlhsOJB4YWHWkttpDwMqNw?usp=sharing"
-```
-  - Option 2: Using curl
-```
-curl -C - --retry 10 --retry-delay 10 -O "https://drive.google.com/drive/folders/1C33bsP8HvsRlhsOJB4YWHWkttpDwMqNw?usp=sharing"
+conda install conda-forge::gdown
+gdown "https://drive.google.com/uc?id=1z_Rf_XKDRKzeWEDezIRH4PgFkBLKKn8F" -O zen.dmnd
 ```
 
 ---
